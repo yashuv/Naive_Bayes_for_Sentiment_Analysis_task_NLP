@@ -87,9 +87,9 @@ The steps generally followed are as follows:
 1. Prepare a set of tweets, including at least two from each of the classes you wish to test (e.g., positive, negative, neutral).
 2. Preprocess the tweets, including stemming, lemmatization, and removing stopwords and other noise.
 3. Run the tweets through the classifier and predict the results.
-4. Compare the results to the actual classes of the tweets to the evaluate the performance of model.
-	` Error is the average of the absolute values of the differences between predicted result(y_hats) and actual class(test_y).                                                                                                                        Accuracy = 1 - Error
-	`
+4. Compare the results to the actual classes of the tweets to the evaluate the performance of model.<br>
+	` Error is the average of the absolute values of the differences between predicted result(y_hats) and actual class(test_y).`
+	<pre> Accuracy = 1 - Error </pre>
 	
 ## Applications of Naïve Bayes
 - Text classification
