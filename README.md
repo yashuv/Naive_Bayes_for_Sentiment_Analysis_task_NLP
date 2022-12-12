@@ -1,7 +1,14 @@
 # Naive Bayes for Sentiment Analysis task NLP
 We use another useful method for classification called Naive Bayes. It is an example of supervised machine learning and shares many similarities with the logistic regression method I used previously.
 
-We will learn the theory behind Naive Bayes' rule for conditional probabilities, then apply it toward building a Naive Bayes tweet classifier of our own!
+We will learn the theory behind Naive Bayes' rule for conditional probabilities, then apply it toward building 
+a Naive Bayes tweet classifier of our own! Given a tweet, we will decide if it has a positive sentiment or a negative one. Specifically we will: 
+
+* Train a naive bayes model on a sentiment analysis task
+* Test using your model
+* Compute ratios of positive words to negative words
+* Do some error analysis
+* Predict on our own tweet
 
 I achieved the following learning goals:
 * Error analysis
